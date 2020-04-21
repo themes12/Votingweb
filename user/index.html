@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voting</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/themes@3.1.4/material-ui/material-ui.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+	  <div class="navbar-brand">
+	    <a class="navbar-item" href="https://bulma.io">
+	      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+	    </a>
+
+	    <div id="navbar-burger-id" class="navbar-burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+	      <span aria-hidden="true"></span>
+	      <span aria-hidden="true"></span>
+	      <span aria-hidden="true"></span>
+	    </div>
+	  </div>
+
+	  <div id="navbarBasicExample" class="navbar-menu">
+	    <div class="navbar-start">
+	      <a class="navbar-item" href="#">
+	        Home
+	      </a>
+
+	      <a class="navbar-item" href="#" id="view-account" onclick="viewAccount()">
+	        Account
+	      </a>
+
+	      <a class="navbar-item" id="create-vote" onclick="createvote()">
+	        Create vote
+	      </a>
+
+	      <div class="navbar-item has-dropdown is-hoverable">
+	        <a class="navbar-link">
+	          More
+	        </a>
+
+	        <div class="navbar-dropdown">
+	          <a class="navbar-item" href="#">
+	            History
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="navbar-end">
+	      <div class="navbar-item">
+		    <div class="buttons">
+          		<a class="button is-primary logged-in" onclick="toggleSignout()" style="display: none;">
+            		<strong>Logout</strong>
+         		</a>
+        	</div>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container" style="margin-top: 30px; margin-bottom: 30px;">
+		          
+	</div>
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+<script>
+	//firebase SDK
+
+	const db = firebase.firestore();
+	//db.settings({ timestampsInSnapshots: true });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.1.4/chance.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/index.js"></script>

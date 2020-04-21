@@ -1,0 +1,13 @@
+input{
+  display: block;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(335px,1fr));
+	grid-gap: 0.7em;
+}
+
+.card{
+	height: max-content;
+}

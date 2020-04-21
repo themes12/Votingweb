@@ -1,0 +1,566 @@
+Apr 21 05:50:35 10.71.53.0 u100295750 Connection from 10.71.53.0 port 14118 on 74.208.56.42 port 22
+Apr 21 05:50:37 10.71.53.0 u100295750 Accepted password for u100295750 from 10.71.53.0 port 14118 ssh2
+Apr 21 05:50:37 10.71.53.0 u100295750 Starting session: subsystem 'sftp' for u100295750 from 10.71.53.0 port 14118
+Apr 21 05:50:37 10.71.53.0 u100295750 session opened for local user u100295750 from [10.71.53.0]
+Apr 21 05:51:49 10.71.53.0 u100295750 sent status No such file
+Apr 21 05:51:49 10.71.53.0 u100295750 rename old "/login/index.html" new "/login/index.php"
+Apr 21 05:51:49 10.71.53.0 u100295750 [10.71.53.0|rename|0|0|0|0|0|2f6c6f67696e2f696e6465782e68746d6c|2f6c6f67696e2f696e6465782e706870]
+Apr 21 05:51:58 10.71.53.0 u100295750 sent status No such file
+Apr 21 05:51:59 10.71.53.0 u100295750 rename old "/login/index.php" new "/login/index.html"
+Apr 21 05:51:59 10.71.53.0 u100295750 [10.71.53.0|rename|0|0|0|0|0|2f6c6f67696e2f696e6465782e706870|2f6c6f67696e2f696e6465782e68746d6c]
+Apr 21 05:52:14 10.71.53.0 u100295750 sent status No such file
+Apr 21 05:52:15 10.71.53.0 u100295750 rename old "/user/index.html" new "/user/index.php"
+Apr 21 05:52:15 10.71.53.0 u100295750 [10.71.53.0|rename|0|0|0|0|0|2f757365722f696e6465782e68746d6c|2f757365722f696e6465782e706870]
+Apr 21 05:52:18 10.71.53.0 u100295750 Connection from 10.71.53.0 port 49952 on 74.208.56.42 port 22
+Apr 21 05:52:19 10.71.53.0 u100295750 Accepted password for u100295750 from 10.71.53.0 port 49952 ssh2
+Apr 21 05:52:20 10.71.53.0 u100295750 Starting session: subsystem 'sftp' for u100295750 from 10.71.53.0 port 49952
+Apr 21 05:52:20 10.71.53.0 u100295750 session opened for local user u100295750 from [10.71.53.0]
+Apr 21 05:52:23 10.71.53.0 u100295750 open "/user/index.php" flags READ mode 0666
+Apr 21 05:52:24 10.71.53.0 u100295750 close "/user/index.php" bytes read 3622 written 0
+Apr 21 05:52:24 10.71.53.0 u100295750 [10.71.53.0|get|1|3622|0|0|0|2f757365722f696e6465782e706870|]
+Apr 21 05:53:00 10.71.53.0 u100295750 sent status No such file
+Apr 21 05:53:01 10.71.53.0 u100295750 rename old "/user/index.php" new "/user/index.html"
+Apr 21 05:53:01 10.71.53.0 u100295750 [10.71.53.0|rename|0|0|0|0|0|2f757365722f696e6465782e706870|2f757365722f696e6465782e68746d6c]
+Apr 21 05:53:09 10.71.53.0 u100295750 open "/user/js/app.js" flags READ mode 0666
+Apr 21 05:53:09 10.71.53.0 u100295750 close "/user/js/app.js" bytes read 3066 written 0
+Apr 21 05:53:09 10.71.53.0 u100295750 [10.71.53.0|get|0|3066|0|0|0|2f757365722f6a732f6170702e6a73|]
+Apr 21 05:53:09 10.71.53.0 u100295750 Connection from 10.71.53.0 port 13620 on 74.208.56.42 port 22
+Apr 21 05:53:10 10.71.53.0 u100295750 Accepted password for u100295750 from 10.71.53.0 port 13620 ssh2
+Apr 21 05:53:11 10.71.53.0 u100295750 Starting session: subsystem 'sftp' for u100295750 from 10.71.53.0 port 13620
+Apr 21 05:53:11 10.71.53.0 u100295750 session opened for local user u100295750 from [10.71.53.0]
+Apr 21 05:53:13 10.71.53.0 u100295750 open "/user/js/index.js" flags READ mode 0666
+Apr 21 05:53:14 10.71.53.0 u100295750 close "/user/js/index.js" bytes read 17345 written 0
+Apr 21 05:53:14 10.71.53.0 u100295750 [10.71.53.0|get|1|17345|0|0|0|2f757365722f6a732f696e6465782e6a73|]
+Apr 21 05:54:10 10.71.53.0 u100295750 session closed for local user u100295750 from [10.71.53.0]
+Apr 21 05:54:10 10.71.53.0 u100295750 Connection closed by 10.71.53.0
+Apr 21 05:54:14 10.71.53.0 u100295750 session closed for local user u100295750 from [10.71.53.0]
+Apr 21 05:54:14 10.71.53.0 u100295750 Connection closed by 10.71.53.0
+Apr 21 05:56:03 10.71.53.0 u100295750 Connection from 10.71.53.0 port 18868 on 74.208.56.42 port 22
+Apr 21 05:56:04 10.71.53.0 u100295750 Accepted password for u100295750 from 10.71.53.0 port 18868 ssh2
+Apr 21 05:56:03 10.71.53.0 u100295750 Connection from 10.71.53.0 port 18870 on 74.208.56.42 port 22
+Apr 21 05:56:04 10.71.53.0 u100295750 Accepted password for u100295750 from 10.71.53.0 port 18870 ssh2
+Apr 21 05:56:04 10.71.53.0 u100295750 Starting session: subsystem 'sftp' for u100295750 from 10.71.53.0 port 18868
+Apr 21 05:56:04 10.71.53.0 u100295750 Starting session: subsystem 'sftp' for u100295750 from 10.71.53.0 port 18870
+Apr 21 05:56:04 10.71.53.0 u100295750 session opened for local user u100295750 from [10.71.53.0]
+Apr 21 05:56:04 10.71.53.0 u100295750 session opened for local user u100295750 from [10.71.53.0]
+Apr 21 05:56:06 10.71.53.0 u100295750 open "/.gitignore" flags READ mode 0666
+Apr 21 05:56:06 10.71.53.0 u100295750 open "/.browserslistrc" flags READ mode 0666
+Apr 21 05:56:07 10.71.53.0 u100295750 close "/.gitignore" bytes read 12 written 0
+Apr 21 05:56:07 10.71.53.0 u100295750 [10.71.53.0|get|1|12|0|0|0|2f2e67697469676e6f7265|]
+Apr 21 05:56:07 10.71.53.0 u100295750 close "/.browserslistrc" bytes read 208 written 0
+Apr 21 05:56:07 10.71.53.0 u100295750 [10.71.53.0|get|1|208|0|0|0|2f2e62726f77736572736c6973747263|]
+Apr 21 05:56:08 10.71.53.0 u100295750 open "/.travis.yml" flags READ mode 0666
+Apr 21 05:56:08 10.71.53.0 u100295750 open "/gulpfile.js" flags READ mode 0666
+Apr 21 05:56:09 10.71.53.0 u100295750 close "/.travis.yml" bytes read 199 written 0
+Apr 21 05:56:09 10.71.53.0 u100295750 [10.71.53.0|get|1|199|0|0|0|2f2e7472617669732e796d6c|]
+Apr 21 05:56:09 10.71.53.0 u100295750 close "/gulpfile.js" bytes read 3422 written 0
+Apr 21 05:56:09 10.71.53.0 u100295750 [10.71.53.0|get|1|3422|0|0|0|2f67756c7066696c652e6a73|]
+Apr 21 05:56:09 10.71.53.0 u100295750 open "/index.html" flags READ mode 0666
+Apr 21 05:56:10 10.71.53.0 u100295750 open "/LICENSE" flags READ mode 0666
+Apr 21 05:56:10 10.71.53.0 u100295750 close "/index.html" bytes read 9070 written 0
+Apr 21 05:56:10 10.71.53.0 u100295750 [10.71.53.0|get|1|9070|0|0|0|2f696e6465782e68746d6c|]
+Apr 21 05:56:10 10.71.53.0 u100295750 close "/LICENSE" bytes read 1093 written 0
+Apr 21 05:56:10 10.71.53.0 u100295750 [10.71.53.0|get|0|1093|0|0|0|2f4c4943454e5345|]
+Apr 21 05:56:11 10.71.53.0 u100295750 open "/loaderio-02bbb73763f76104f5e90f0a19959739.txt" flags READ mode 0666
+Apr 21 05:56:11 10.71.53.0 u100295750 open "/package-lock.json" flags READ mode 0666
+Apr 21 05:56:12 10.71.53.0 u100295750 close "/loaderio-02bbb73763f76104f5e90f0a19959739.txt" bytes read 41 written 0
+Apr 21 05:56:12 10.71.53.0 u100295750 [10.71.53.0|get|1|41|0|0|0|2f6c6f61646572696f2d30326262623733373633663736313034663565393066306131393935393733392e747874|]
+Apr 21 05:56:12 10.71.53.0 u100295750 close "/package-lock.json" bytes read 262448 written 0
+Apr 21 05:56:12 10.71.53.0 u100295750 [10.71.53.0|get|1|262448|0|0|0|2f7061636b6167652d6c6f636b2e6a736f6e|]
+Apr 21 05:56:13 10.71.53.0 u100295750 open "/package.json" flags READ mode 0666
+Apr 21 05:56:13 10.71.53.0 u100295750 open "/README.md" flags READ mode 0666
+Apr 21 05:56:13 10.71.53.0 u100295750 close "/package.json" bytes read 1399 written 0
+Apr 21 05:56:13 10.71.53.0 u100295750 [10.71.53.0|get|0|1399|0|0|0|2f7061636b6167652e6a736f6e|]
+Apr 21 05:56:14 10.71.53.0 u100295750 session closed for local user u100295750 from [10.71.53.0]
+Apr 21 05:56:14 10.71.53.0 u100295750 Connection closed by 10.71.53.0
+Apr 21 05:56:14 10.71.53.0 u100295750 close "/README.md" bytes read 4273 written 0
+Apr 21 05:56:14 10.71.53.0 u100295750 [10.71.53.0|get|1|4273|0|0|0|2f524541444d452e6d64|]
+Apr 21 05:56:14 10.71.53.0 u100295750 session closed for local user u100295750 from [10.71.53.0]
+Apr 21 05:56:15 10.71.53.0 u100295750 Connection closed by 10.71.53.0
+Apr 21 05:56:14 10.71.53.0 u100295750 Connection from 10.71.53.0 port 23046 on 74.208.56.42 port 22
+Apr 21 05:56:16 10.71.53.0 u100295750 Accepted password for u100295750 from 10.71.53.0 port 23046 ssh2
+Apr 21 05:56:16 10.71.53.0 u100295750 Starting session: subsystem 'sftp' for u100295750 from 10.71.53.0 port 23046
+Apr 21 05:56:16 10.71.53.0 u100295750 session opened for local user u100295750 from [10.71.53.0]
+Apr 21 05:56:15 10.71.53.0 u100295750 Connection from 10.71.53.0 port 23338 on 74.208.56.42 port 22
+Apr 21 05:56:16 10.71.53.0 u100295750 Accepted password for u100295750 from 10.71.53.0 port 23338 ssh2
+Apr 21 05:56:17 10.71.53.0 u100295750 Starting session: subsystem 'sftp' for u100295750 from 10.71.53.0 port 23338
+Apr 21 05:56:17 10.71.53.0 u100295750 session opened for local user u100295750 from [10.71.53.0]
+Apr 21 05:56:18 10.71.53.0 u100295750 open "/css/landing-page.min.css" flags READ mode 0666
+Apr 21 05:56:19 10.71.53.0 u100295750 open "/css/landing-page.css" flags READ mode 0666
+Apr 21 05:56:19 10.71.53.0 u100295750 close "/css/landing-page.min.css" bytes read 1890 written 0
+Apr 21 05:56:19 10.71.53.0 u100295750 [10.71.53.0|get|1|1890|0|0|0|2f6373732f6c616e64696e672d706167652e6d696e2e637373|]
+Apr 21 05:56:20 10.71.53.0 u100295750 close "/css/landing-page.css" bytes read 2250 written 0
+Apr 21 05:56:20 10.71.53.0 u100295750 [10.71.53.0|get|1|2250|0|0|0|2f6373732f6c616e64696e672d706167652e637373|]
+Apr 21 05:56:20 10.71.53.0 u100295750 open "/img/testimonials-3.jpg" flags READ mode 0666
+Apr 21 05:56:21 10.71.53.0 u100295750 open "/img/testimonials-2.jpg" flags READ mode 0666
+Apr 21 05:56:22 10.71.53.0 u100295750 close "/img/testimonials-3.jpg" bytes read 250262 written 0
+Apr 21 05:56:22 10.71.53.0 u100295750 [10.71.53.0|get|2|250262|0|0|0|2f696d672f74657374696d6f6e69616c732d332e6a7067|]
+Apr 21 05:56:22 10.71.53.0 u100295750 close "/img/testimonials-2.jpg" bytes read 193507 written 0
+Apr 21 05:56:22 10.71.53.0 u100295750 [10.71.53.0|get|1|193507|0|0|0|2f696d672f74657374696d6f6e69616c732d322e6a7067|]
+Apr 21 05:56:23 10.71.53.0 u100295750 open "/img/testimonials-1.jpg" flags READ mode 0666
+Apr 21 05:56:23 10.71.53.0 u100295750 open "/img/bg-showcase-3.jpg" flags READ mode 0666
+Apr 21 05:56:23 10.71.53.0 u100295750 close "/img/testimonials-1.jpg" bytes read 136643 written 0
+Apr 21 05:56:23 10.71.53.0 u100295750 [10.71.53.0|get|0|136643|0|0|0|2f696d672f74657374696d6f6e69616c732d312e6a7067|]
+Apr 21 05:56:24 10.71.53.0 u100295750 close "/img/bg-showcase-3.jpg" bytes read 314857 written 0
+Apr 21 05:56:24 10.71.53.0 u100295750 [10.71.53.0|get|1|314857|0|0|0|2f696d672f62672d73686f77636173652d332e6a7067|]
+Apr 21 05:56:24 10.71.53.0 u100295750 open "/img/bg-showcase-2.jpg" flags READ mode 0666
+Apr 21 05:56:25 10.71.53.0 u100295750 open "/img/bg-showcase-1.jpg" flags READ mode 0666
+Apr 21 05:56:25 10.71.53.0 u100295750 close "/img/bg-showcase-2.jpg" bytes read 197349 written 0
+Apr 21 05:56:25 10.71.53.0 u100295750 [10.71.53.0|get|1|197349|0|0|0|2f696d672f62672d73686f77636173652d322e6a7067|]
+Apr 21 05:56:26 10.71.53.0 u100295750 close "/img/bg-showcase-1.jpg" bytes read 304839 written 0
+Apr 21 05:56:26 10.71.53.0 u100295750 [10.71.53.0|get|1|304839|0|0|0|2f696d672f62672d73686f77636173652d312e6a7067|]
+Apr 21 05:56:26 10.71.53.0 u100295750 open "/img/bg-masthead.jpg" flags READ mode 0666
+Apr 21 05:56:27 10.71.53.0 u100295750 close "/img/bg-masthead.jpg" bytes read 961157 written 0
+Apr 21 05:56:27 10.71.53.0 u100295750 [10.71.53.0|get|1|961157|0|0|0|2f696d672f62672d6d617374686561642e6a7067|]
+Apr 21 05:56:27 10.71.53.0 u100295750 open "/js/app.js" flags READ mode 0666
+Apr 21 05:56:28 10.71.53.0 u100295750 close "/js/app.js" bytes read 3327 written 0
+Apr 21 05:56:28 10.71.53.0 u100295750 [10.71.53.0|get|1|3327|0|0|0|2f6a732f6170702e6a73|]
+Apr 21 05:56:29 10.71.53.0 u100295750 open "/login/index.html" flags READ mode 0666
+Apr 21 05:56:29 10.71.53.0 u100295750 close "/login/index.html" bytes read 6580 written 0
+Apr 21 05:56:29 10.71.53.0 u100295750 [10.71.53.0|get|0|6580|0|0|0|2f6c6f67696e2f696e6465782e68746d6c|]
+Apr 21 05:56:30 10.71.53.0 u100295750 open "/login/css/main.css" flags READ mode 0666
+Apr 21 05:56:30 10.71.53.0 u100295750 close "/login/css/main.css" bytes read 8313 written 0
+Apr 21 05:56:30 10.71.53.0 u100295750 [10.71.53.0|get|0|8313|0|0|0|2f6c6f67696e2f6373732f6d61696e2e637373|]
+Apr 21 05:56:31 10.71.53.0 u100295750 open "/login/css/util.css" flags READ mode 0666
+Apr 21 05:56:32 10.71.53.0 u100295750 close "/login/css/util.css" bytes read 86814 written 0
+Apr 21 05:56:32 10.71.53.0 u100295750 [10.71.53.0|get|1|86814|0|0|0|2f6c6f67696e2f6373732f7574696c2e637373|]
+Apr 21 05:56:32 10.71.53.0 u100295750 open "/login/js/main.js" flags READ mode 0666
+Apr 21 05:56:33 10.71.53.0 u100295750 close "/login/js/main.js" bytes read 1420 written 0
+Apr 21 05:56:33 10.71.53.0 u100295750 [10.71.53.0|get|1|1420|0|0|0|2f6c6f67696e2f6a732f6d61696e2e6a73|]
+Apr 21 05:56:33 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" flags READ mode 0666
+Apr 21 05:56:34 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" bytes read 323 written 0
+Apr 21 05:56:34 10.71.53.0 u100295750 [10.71.53.0|get|1|323|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f48454c502d55532d4f55542e747874|]
+Apr 21 05:56:34 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/css/font-awesome.css" flags READ mode 0666
+Apr 21 05:56:35 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/css/font-awesome.css" bytes read 37414 written 0
+Apr 21 05:56:35 10.71.53.0 u100295750 [10.71.53.0|get|1|37414|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6373732f666f6e742d617765736f6d652e637373|]
+Apr 21 05:56:36 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" flags READ mode 0666
+Apr 21 05:56:36 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" bytes read 31000 written 0
+Apr 21 05:56:36 10.71.53.0 u100295750 [10.71.53.0|get|0|31000|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6373732f666f6e742d617765736f6d652e6d696e2e637373|]
+Apr 21 05:56:36 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" flags READ mode 0666
+Apr 21 05:56:37 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" bytes read 134808 written 0
+Apr 21 05:56:37 10.71.53.0 u100295750 [10.71.53.0|get|1|134808|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f666f6e74732f466f6e74417765736f6d652e6f7466|]
+Apr 21 05:56:38 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" flags READ mode 0666
+Apr 21 05:56:38 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" flags READ mode 0666
+Apr 21 05:56:39 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" bytes read 77160 written 0
+Apr 21 05:56:39 10.71.53.0 u100295750 [10.71.53.0|get|1|77160|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e776f666632|]
+Apr 21 05:56:39 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" bytes read 98024 written 0
+Apr 21 05:56:39 10.71.53.0 u100295750 [10.71.53.0|get|1|98024|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e776f6666|]
+Apr 21 05:56:39 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" flags READ mode 0666
+Apr 21 05:56:40 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" flags READ mode 0666
+Apr 21 05:56:40 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" bytes read 165548 written 0
+Apr 21 05:56:40 10.71.53.0 u100295750 [10.71.53.0|get|1|165548|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e747466|]
+Apr 21 05:56:41 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" bytes read 444379 written 0
+Apr 21 05:56:41 10.71.53.0 u100295750 [10.71.53.0|get|1|444379|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e737667|]
+Apr 21 05:56:41 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" flags READ mode 0666
+Apr 21 05:56:42 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" bytes read 165742 written 0
+Apr 21 05:56:42 10.71.53.0 u100295750 [10.71.53.0|get|1|165742|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f666f6e74732f666f6e74617765736f6d652d776562666f6e742e656f74|]
+Apr 21 05:56:42 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/variables.less" flags READ mode 0666
+Apr 21 05:56:43 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/variables.less" bytes read 22563 written 0
+Apr 21 05:56:43 10.71.53.0 u100295750 [10.71.53.0|get|1|22563|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f7661726961626c65732e6c657373|]
+Apr 21 05:56:43 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/stacked.less" flags READ mode 0666
+Apr 21 05:56:44 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/screen-reader.less" flags READ mode 0666
+Apr 21 05:56:44 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/stacked.less" bytes read 476 written 0
+Apr 21 05:56:44 10.71.53.0 u100295750 [10.71.53.0|get|1|476|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f737461636b65642e6c657373|]
+Apr 21 05:56:44 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/screen-reader.less" bytes read 118 written 0
+Apr 21 05:56:44 10.71.53.0 u100295750 [10.71.53.0|get|0|118|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f73637265656e2d7265616465722e6c657373|]
+Apr 21 05:56:45 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" flags READ mode 0666
+Apr 21 05:56:45 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/path.less" flags READ mode 0666
+Apr 21 05:56:46 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" bytes read 622 written 0
+Apr 21 05:56:46 10.71.53.0 u100295750 [10.71.53.0|get|1|622|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f726f74617465642d666c69707065642e6c657373|]
+Apr 21 05:56:46 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/path.less" bytes read 771 written 0
+Apr 21 05:56:46 10.71.53.0 u100295750 [10.71.53.0|get|1|771|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f706174682e6c657373|]
+Apr 21 05:56:46 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/mixins.less" flags READ mode 0666
+Apr 21 05:56:47 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/list.less" flags READ mode 0666
+Apr 21 05:56:47 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/mixins.less" bytes read 1603 written 0
+Apr 21 05:56:47 10.71.53.0 u100295750 [10.71.53.0|get|1|1603|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f6d6978696e732e6c657373|]
+Apr 21 05:56:47 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/list.less" bytes read 377 written 0
+Apr 21 05:56:47 10.71.53.0 u100295750 [10.71.53.0|get|0|377|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f6c6973742e6c657373|]
+Apr 21 05:56:48 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/larger.less" flags READ mode 0666
+Apr 21 05:56:48 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/icons.less" flags READ mode 0666
+Apr 21 05:56:49 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/larger.less" bytes read 370 written 0
+Apr 21 05:56:49 10.71.53.0 u100295750 [10.71.53.0|get|1|370|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f6c61726765722e6c657373|]
+Apr 21 05:56:49 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/icons.less" bytes read 49712 written 0
+Apr 21 05:56:49 10.71.53.0 u100295750 [10.71.53.0|get|1|49712|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f69636f6e732e6c657373|]
+Apr 21 05:56:49 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/font-awesome.less" flags READ mode 0666
+Apr 21 05:56:50 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/fixed-width.less" flags READ mode 0666
+Apr 21 05:56:50 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/font-awesome.less" bytes read 495 written 0
+Apr 21 05:56:50 10.71.53.0 u100295750 [10.71.53.0|get|1|495|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f666f6e742d617765736f6d652e6c657373|]
+Apr 21 05:56:50 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/fixed-width.less" bytes read 119 written 0
+Apr 21 05:56:50 10.71.53.0 u100295750 [10.71.53.0|get|0|119|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f66697865642d77696474682e6c657373|]
+Apr 21 05:56:51 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/core.less" flags READ mode 0666
+Apr 21 05:56:51 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" flags READ mode 0666
+Apr 21 05:56:52 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/core.less" bytes read 452 written 0
+Apr 21 05:56:52 10.71.53.0 u100295750 [10.71.53.0|get|1|452|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f636f72652e6c657373|]
+Apr 21 05:56:52 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" bytes read 585 written 0
+Apr 21 05:56:52 10.71.53.0 u100295750 [10.71.53.0|get|1|585|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f626f7264657265642d70756c6c65642e6c657373|]
+Apr 21 05:56:53 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/less/animated.less" flags READ mode 0666
+Apr 21 05:56:53 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/less/animated.less" bytes read 713 written 0
+Apr 21 05:56:53 10.71.53.0 u100295750 [10.71.53.0|get|0|713|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f6c6573732f616e696d617465642e6c657373|]
+Apr 21 05:56:54 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_variables.scss" flags READ mode 0666
+Apr 21 05:56:54 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_variables.scss" bytes read 22644 written 0
+Apr 21 05:56:54 10.71.53.0 u100295750 [10.71.53.0|get|0|22644|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f7661726961626c65732e73637373|]
+Apr 21 05:56:55 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" flags READ mode 0666
+Apr 21 05:56:55 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" flags READ mode 0666
+Apr 21 05:56:56 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" bytes read 482 written 0
+Apr 21 05:56:56 10.71.53.0 u100295750 [10.71.53.0|get|1|482|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f737461636b65642e73637373|]
+Apr 21 05:56:56 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" bytes read 134 written 0
+Apr 21 05:56:56 10.71.53.0 u100295750 [10.71.53.0|get|1|134|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f73637265656e2d7265616465722e73637373|]
+Apr 21 05:56:56 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" flags READ mode 0666
+Apr 21 05:56:57 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_path.scss" flags READ mode 0666
+Apr 21 05:56:57 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" bytes read 672 written 0
+Apr 21 05:56:57 10.71.53.0 u100295750 [10.71.53.0|get|1|672|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f726f74617465642d666c69707065642e73637373|]
+Apr 21 05:56:57 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_path.scss" bytes read 783 written 0
+Apr 21 05:56:57 10.71.53.0 u100295750 [10.71.53.0|get|0|783|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f706174682e73637373|]
+Apr 21 05:56:58 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" flags READ mode 0666
+Apr 21 05:56:58 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_list.scss" flags READ mode 0666
+Apr 21 05:56:59 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" bytes read 1637 written 0
+Apr 21 05:56:59 10.71.53.0 u100295750 [10.71.53.0|get|1|1637|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f6d6978696e732e73637373|]
+Apr 21 05:56:59 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_list.scss" bytes read 378 written 0
+Apr 21 05:56:59 10.71.53.0 u100295750 [10.71.53.0|get|1|378|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f6c6973742e73637373|]
+Apr 21 05:57:00 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_larger.scss" flags READ mode 0666
+Apr 21 05:57:00 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_icons.scss" flags READ mode 0666
+Apr 21 05:57:00 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_larger.scss" bytes read 375 written 0
+Apr 21 05:57:00 10.71.53.0 u100295750 [10.71.53.0|get|1|375|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f6c61726765722e73637373|]
+Apr 21 05:57:00 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_icons.scss" bytes read 50498 written 0
+Apr 21 05:57:00 10.71.53.0 u100295750 [10.71.53.0|get|0|50498|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f69636f6e732e73637373|]
+Apr 21 05:57:01 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" flags READ mode 0666
+Apr 21 05:57:01 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_core.scss" flags READ mode 0666
+Apr 21 05:57:02 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" bytes read 120 written 0
+Apr 21 05:57:02 10.71.53.0 u100295750 [10.71.53.0|get|1|120|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f66697865642d77696474682e73637373|]
+Apr 21 05:57:02 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_core.scss" bytes read 459 written 0
+Apr 21 05:57:02 10.71.53.0 u100295750 [10.71.53.0|get|1|459|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f636f72652e73637373|]
+Apr 21 05:57:03 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" flags READ mode 0666
+Apr 21 05:57:03 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/_animated.scss" flags READ mode 0666
+Apr 21 05:57:03 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" bytes read 592 written 0
+Apr 21 05:57:03 10.71.53.0 u100295750 [10.71.53.0|get|0|592|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f626f7264657265642d70756c6c65642e73637373|]
+Apr 21 05:57:03 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/_animated.scss" bytes read 715 written 0
+Apr 21 05:57:03 10.71.53.0 u100295750 [10.71.53.0|get|0|715|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f5f616e696d617465642e73637373|]
+Apr 21 05:57:04 10.71.53.0 u100295750 open "/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" flags READ mode 0666
+Apr 21 05:57:05 10.71.53.0 u100295750 close "/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" bytes read 430 written 0
+Apr 21 05:57:05 10.71.53.0 u100295750 [10.71.53.0|get|1|430|0|0|0|2f6c6f67696e2f666f6e74732f666f6e742d617765736f6d652d342e372e302f736373732f666f6e742d617765736f6d652e73637373|]
+Apr 21 05:57:05 10.71.53.0 u100295750 open "/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" flags READ mode 0666
+Apr 21 05:57:06 10.71.53.0 u100295750 close "/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" bytes read 7354 written 0
+Apr 21 05:57:06 10.71.53.0 u100295750 [10.71.53.0|get|1|7354|0|0|0|2f6c6f67696e2f666f6e74732f4c696e65617269636f6e732d467265652d76312e302e302f69636f6e2d666f6e742e6d696e2e637373|]
+Apr 21 05:57:06 10.71.53.0 u100295750 open "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" flags READ mode 0666
+Apr 21 05:57:07 10.71.53.0 u100295750 open "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" flags READ mode 0666
+Apr 21 05:57:07 10.71.53.0 u100295750 close "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" bytes read 21780 written 0
+Apr 21 05:57:07 10.71.53.0 u100295750 [10.71.53.0|get|1|21780|0|0|0|2f6c6f67696e2f666f6e74732f4c696e65617269636f6e732d467265652d76312e302e302f576562466f6e742f4c696e65617269636f6e732d467265652e776f666632|]
+Apr 21 05:57:08 10.71.53.0 u100295750 open "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" flags READ mode 0666
+Apr 21 05:57:08 10.71.53.0 u100295750 close "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" bytes read 55696 written 0
+Apr 21 05:57:08 10.71.53.0 u100295750 [10.71.53.0|get|1|55696|0|0|0|2f6c6f67696e2f666f6e74732f4c696e65617269636f6e732d467265652d76312e302e302f576562466f6e742f4c696e65617269636f6e732d467265652e776f6666|]
+Apr 21 05:57:09 10.71.53.0 u100295750 open "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" flags READ mode 0666
+Apr 21 05:57:09 10.71.53.0 u100295750 close "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" bytes read 55620 written 0
+Apr 21 05:57:09 10.71.53.0 u100295750 [10.71.53.0|get|1|55620|0|0|0|2f6c6f67696e2f666f6e74732f4c696e65617269636f6e732d467265652d76312e302e302f576562466f6e742f4c696e65617269636f6e732d467265652e747466|]
+Apr 21 05:57:10 10.71.53.0 u100295750 open "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" flags READ mode 0666
+Apr 21 05:57:10 10.71.53.0 u100295750 close "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" bytes read 205847 written 0
+Apr 21 05:57:10 10.71.53.0 u100295750 [10.71.53.0|get|1|205847|0|0|0|2f6c6f67696e2f666f6e74732f4c696e65617269636f6e732d467265652d76312e302e302f576562466f6e742f4c696e65617269636f6e732d467265652e737667|]
+Apr 21 05:57:10 10.71.53.0 u100295750 close "/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" bytes read 55820 written 0
+Apr 21 05:57:10 10.71.53.0 u100295750 [10.71.53.0|get|0|55820|0|0|0|2f6c6f67696e2f666f6e74732f4c696e65617269636f6e732d467265652d76312e302e302f576562466f6e742f4c696e65617269636f6e732d467265652e656f74|]
+Apr 21 05:57:11 10.71.53.0 u100295750 open "/login/fonts/montserrat/OFL.txt" flags READ mode 0666
+Apr 21 05:57:12 10.71.53.0 u100295750 close "/login/fonts/montserrat/OFL.txt" bytes read 4485 written 0
+Apr 21 05:57:12 10.71.53.0 u100295750 [10.71.53.0|get|1|4485|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4f464c2e747874|]
+Apr 21 05:57:12 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-ThinItalic.ttf" flags READ mode 0666
+Apr 21 05:57:13 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-Thin.ttf" flags READ mode 0666
+Apr 21 05:57:13 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-ThinItalic.ttf" bytes read 262776 written 0
+Apr 21 05:57:13 10.71.53.0 u100295750 [10.71.53.0|get|1|262776|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d5468696e4974616c69632e747466|]
+Apr 21 05:57:13 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-Thin.ttf" bytes read 258748 written 0
+Apr 21 05:57:13 10.71.53.0 u100295750 [10.71.53.0|get|0|258748|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d5468696e2e747466|]
+Apr 21 05:57:13 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" flags READ mode 0666
+Apr 21 05:57:14 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-SemiBold.ttf" flags READ mode 0666
+Apr 21 05:57:14 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" bytes read 266336 written 0
+Apr 21 05:57:14 10.71.53.0 u100295750 [10.71.53.0|get|1|266336|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d53656d69426f6c644974616c69632e747466|]
+Apr 21 05:57:15 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-SemiBold.ttf" bytes read 260936 written 0
+Apr 21 05:57:15 10.71.53.0 u100295750 [10.71.53.0|get|1|260936|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d53656d69426f6c642e747466|]
+Apr 21 05:57:15 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-Regular.ttf" flags READ mode 0666
+Apr 21 05:57:16 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-MediumItalic.ttf" flags READ mode 0666
+Apr 21 05:57:16 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-Regular.ttf" bytes read 263192 written 0
+Apr 21 05:57:16 10.71.53.0 u100295750 [10.71.53.0|get|1|263192|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d526567756c61722e747466|]
+Apr 21 05:57:17 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-Medium.ttf" flags READ mode 0666
+Apr 21 05:57:17 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-MediumItalic.ttf" bytes read 265176 written 0
+Apr 21 05:57:17 10.71.53.0 u100295750 [10.71.53.0|get|1|265176|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d4d656469756d4974616c69632e747466|]
+Apr 21 05:57:17 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-LightItalic.ttf" flags READ mode 0666
+Apr 21 05:57:17 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-Medium.ttf" bytes read 260236 written 0
+Apr 21 05:57:17 10.71.53.0 u100295750 [10.71.53.0|get|0|260236|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d4d656469756d2e747466|]
+Apr 21 05:57:18 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-Light.ttf" flags READ mode 0666
+Apr 21 05:57:18 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-LightItalic.ttf" bytes read 263712 written 0
+Apr 21 05:57:18 10.71.53.0 u100295750 [10.71.53.0|get|1|263712|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d4c696768744974616c69632e747466|]
+Apr 21 05:57:19 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-Italic.ttf" flags READ mode 0666
+Apr 21 05:57:19 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-Light.ttf" bytes read 259416 written 0
+Apr 21 05:57:19 10.71.53.0 u100295750 [10.71.53.0|get|1|259416|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d4c696768742e747466|]
+Apr 21 05:57:20 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" flags READ mode 0666
+Apr 21 05:57:20 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-Italic.ttf" bytes read 266628 written 0
+Apr 21 05:57:20 10.71.53.0 u100295750 [10.71.53.0|get|1|266628|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d4974616c69632e747466|]
+Apr 21 05:57:21 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-ExtraLight.ttf" flags READ mode 0666
+Apr 21 05:57:21 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" bytes read 264004 written 0
+Apr 21 05:57:21 10.71.53.0 u100295750 [10.71.53.0|get|1|264004|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d45787472614c696768744974616c69632e747466|]
+Apr 21 05:57:21 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" flags READ mode 0666
+Apr 21 05:57:21 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-ExtraLight.ttf" bytes read 259888 written 0
+Apr 21 05:57:21 10.71.53.0 u100295750 [10.71.53.0|get|0|259888|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d45787472614c696768742e747466|]
+Apr 21 05:57:22 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" bytes read 267004 written 0
+Apr 21 05:57:22 10.71.53.0 u100295750 [10.71.53.0|get|1|267004|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d4578747261426f6c644974616c69632e747466|]
+Apr 21 05:57:22 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-ExtraBold.ttf" flags READ mode 0666
+Apr 21 05:57:23 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-BoldItalic.ttf" flags READ mode 0666
+Apr 21 05:57:23 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-ExtraBold.ttf" bytes read 262108 written 0
+Apr 21 05:57:23 10.71.53.0 u100295750 [10.71.53.0|get|1|262108|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d4578747261426f6c642e747466|]
+Apr 21 05:57:24 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-BoldItalic.ttf" bytes read 266748 written 0
+Apr 21 05:57:24 10.71.53.0 u100295750 [10.71.53.0|get|1|266748|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d426f6c644974616c69632e747466|]
+Apr 21 05:57:24 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-Bold.ttf" flags READ mode 0666
+Apr 21 05:57:25 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-Black.ttf" flags READ mode 0666
+Apr 21 05:57:25 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-Bold.ttf" bytes read 261588 written 0
+Apr 21 05:57:25 10.71.53.0 u100295750 [10.71.53.0|get|1|261588|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d426f6c642e747466|]
+Apr 21 05:57:25 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-Black.ttf" bytes read 275192 written 0
+Apr 21 05:57:25 10.71.53.0 u100295750 [10.71.53.0|get|0|275192|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d426c61636b2e747466|]
+Apr 21 05:57:25 10.71.53.0 u100295750 open "/login/fonts/montserrat/Montserrat-BlackItalic.ttf" flags READ mode 0666
+Apr 21 05:57:26 10.71.53.0 u100295750 close "/login/fonts/montserrat/Montserrat-BlackItalic.ttf" bytes read 279380 written 0
+Apr 21 05:57:26 10.71.53.0 u100295750 [10.71.53.0|get|1|279380|0|0|0|2f6c6f67696e2f666f6e74732f6d6f6e747365727261742f4d6f6e747365727261742d426c61636b4974616c69632e747466|]
+Apr 21 05:57:27 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-ThinItalic.ttf" flags READ mode 0666
+Apr 21 05:57:28 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-ThinItalic.ttf" bytes read 172308 written 0
+Apr 21 05:57:28 10.71.53.0 u100295750 [10.71.53.0|get|1|172308|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d5468696e4974616c69632e747466|]
+Apr 21 05:57:28 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-Thin.ttf" flags READ mode 0666
+Apr 21 05:57:28 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" flags READ mode 0666
+Apr 21 05:57:29 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-Thin.ttf" bytes read 148976 written 0
+Apr 21 05:57:29 10.71.53.0 u100295750 [10.71.53.0|get|1|148976|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d5468696e2e747466|]
+Apr 21 05:57:29 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" bytes read 161896 written 0
+Apr 21 05:57:29 10.71.53.0 u100295750 [10.71.53.0|get|1|161896|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d53656d69426f6c644974616c69632e747466|]
+Apr 21 05:57:29 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-SemiBold.ttf" flags READ mode 0666
+Apr 21 05:57:30 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-Regular.ttf" flags READ mode 0666
+Apr 21 05:57:30 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-SemiBold.ttf" bytes read 142148 written 0
+Apr 21 05:57:30 10.71.53.0 u100295750 [10.71.53.0|get|1|142148|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d53656d69426f6c642e747466|]
+Apr 21 05:57:31 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-Regular.ttf" bytes read 145312 written 0
+Apr 21 05:57:31 10.71.53.0 u100295750 [10.71.53.0|get|1|145312|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d526567756c61722e747466|]
+Apr 21 05:57:31 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-MediumItalic.ttf" flags READ mode 0666
+Apr 21 05:57:32 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-Medium.ttf" flags READ mode 0666
+Apr 21 05:57:32 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-MediumItalic.ttf" bytes read 165512 written 0
+Apr 21 05:57:32 10.71.53.0 u100295750 [10.71.53.0|get|1|165512|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d4d656469756d4974616c69632e747466|]
+Apr 21 05:57:32 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-LightItalic.ttf" flags READ mode 0666
+Apr 21 05:57:32 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-Medium.ttf" bytes read 143516 written 0
+Apr 21 05:57:32 10.71.53.0 u100295750 [10.71.53.0|get|0|143516|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d4d656469756d2e747466|]
+Apr 21 05:57:33 10.71.53.0 u100295750 sent status No such file
+Apr 21 05:57:33 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-Light.ttf" flags READ mode 0666
+Apr 21 05:57:33 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-LightItalic.ttf" bytes read 168944 written 0
+Apr 21 05:57:33 10.71.53.0 u100295750 [10.71.53.0|get|1|168944|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d4c696768744974616c69632e747466|]
+Apr 21 05:57:34 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-Italic.ttf" flags READ mode 0666
+Apr 21 05:57:34 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-Light.ttf" bytes read 146472 written 0
+Apr 21 05:57:34 10.71.53.0 u100295750 [10.71.53.0|get|1|146472|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d4c696768742e747466|]
+Apr 21 05:57:35 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" flags READ mode 0666
+Apr 21 05:57:35 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-Italic.ttf" bytes read 167140 written 0
+Apr 21 05:57:35 10.71.53.0 u100295750 [10.71.53.0|get|1|167140|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d4974616c69632e747466|]
+Apr 21 05:57:36 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-ExtraLight.ttf" flags READ mode 0666
+Apr 21 05:57:36 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" bytes read 170912 written 0
+Apr 21 05:57:36 10.71.53.0 u100295750 [10.71.53.0|get|1|170912|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d45787472614c696768744974616c69632e747466|]
+Apr 21 05:57:36 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-ExtraLight.ttf" bytes read 147952 written 0
+Apr 21 05:57:36 10.71.53.0 u100295750 [10.71.53.0|get|0|147952|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d45787472614c696768742e747466|]
+Apr 21 05:57:36 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" flags READ mode 0666
+Apr 21 05:57:37 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-ExtraBold.ttf" flags READ mode 0666
+Apr 21 05:57:37 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" bytes read 158708 written 0
+Apr 21 05:57:37 10.71.53.0 u100295750 [10.71.53.0|get|1|158708|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d4578747261426f6c644974616c69632e747466|]
+Apr 21 05:57:38 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-ExtraBold.ttf" bytes read 140220 written 0
+Apr 21 05:57:38 10.71.53.0 u100295750 [10.71.53.0|get|1|140220|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d4578747261426f6c642e747466|]
+Apr 21 05:57:38 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-BoldItalic.ttf" flags READ mode 0666
+Apr 21 05:57:39 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-Bold.ttf" flags READ mode 0666
+Apr 21 05:57:39 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-BoldItalic.ttf" bytes read 160224 written 0
+Apr 21 05:57:39 10.71.53.0 u100295750 [10.71.53.0|get|1|160224|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d426f6c644974616c69632e747466|]
+Apr 21 05:57:40 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-Bold.ttf" bytes read 141260 written 0
+Apr 21 05:57:40 10.71.53.0 u100295750 [10.71.53.0|get|1|141260|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d426f6c642e747466|]
+Apr 21 05:57:40 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-BlackItalic.ttf" flags READ mode 0666
+Apr 21 05:57:40 10.71.53.0 u100295750 open "/login/fonts/poppins/Poppins-Black.ttf" flags READ mode 0666
+Apr 21 05:57:40 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-BlackItalic.ttf" bytes read 155956 written 0
+Apr 21 05:57:40 10.71.53.0 u100295750 [10.71.53.0|get|0|155956|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d426c61636b4974616c69632e747466|]
+Apr 21 05:57:41 10.71.53.0 u100295750 close "/login/fonts/poppins/Poppins-Black.ttf" bytes read 139056 written 0
+Apr 21 05:57:41 10.71.53.0 u100295750 [10.71.53.0|get|1|139056|0|0|0|2f6c6f67696e2f666f6e74732f706f7070696e732f506f7070696e732d426c61636b2e747466|]
+Apr 21 05:57:42 10.71.53.0 u100295750 open "/login/fonts/ubuntu/UFL.txt" flags READ mode 0666
+Apr 21 05:57:43 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-Regular.ttf" flags READ mode 0666
+Apr 21 05:57:43 10.71.53.0 u100295750 close "/login/fonts/ubuntu/UFL.txt" bytes read 4769 written 0
+Apr 21 05:57:43 10.71.53.0 u100295750 [10.71.53.0|get|1|4769|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f55464c2e747874|]
+Apr 21 05:57:43 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-Regular.ttf" bytes read 351884 written 0
+Apr 21 05:57:43 10.71.53.0 u100295750 [10.71.53.0|get|0|351884|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d526567756c61722e747466|]
+Apr 21 05:57:43 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" flags READ mode 0666
+Apr 21 05:57:44 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-Medium.ttf" flags READ mode 0666
+Apr 21 05:57:44 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" bytes read 365080 written 0
+Apr 21 05:57:44 10.71.53.0 u100295750 [10.71.53.0|get|1|365080|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d4d656469756d4974616c69632e747466|]
+Apr 21 05:57:45 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-Medium.ttf" bytes read 339360 written 0
+Apr 21 05:57:45 10.71.53.0 u100295750 [10.71.53.0|get|1|339360|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d4d656469756d2e747466|]
+Apr 21 05:57:45 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" flags READ mode 0666
+Apr 21 05:57:46 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-Light.ttf" flags READ mode 0666
+Apr 21 05:57:46 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" bytes read 407728 written 0
+Apr 21 05:57:46 10.71.53.0 u100295750 [10.71.53.0|get|1|407728|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d4c696768744974616c69632e747466|]
+Apr 21 05:57:47 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-Light.ttf" bytes read 413600 written 0
+Apr 21 05:57:47 10.71.53.0 u100295750 [10.71.53.0|get|1|413600|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d4c696768742e747466|]
+Apr 21 05:57:47 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-Italic.ttf" flags READ mode 0666
+Apr 21 05:57:47 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-Bold.ttf" flags READ mode 0666
+Apr 21 05:57:48 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-Italic.ttf" bytes read 384408 written 0
+Apr 21 05:57:48 10.71.53.0 u100295750 [10.71.53.0|get|1|384408|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d4974616c69632e747466|]
+Apr 21 05:57:48 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-Bold.ttf" bytes read 331612 written 0
+Apr 21 05:57:48 10.71.53.0 u100295750 [10.71.53.0|get|1|331612|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d426f6c642e747466|]
+Apr 21 05:57:48 10.71.53.0 u100295750 open "/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" flags READ mode 0666
+Apr 21 05:57:49 10.71.53.0 u100295750 close "/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" bytes read 354956 written 0
+Apr 21 05:57:49 10.71.53.0 u100295750 [10.71.53.0|get|1|354956|0|0|0|2f6c6f67696e2f666f6e74732f7562756e74752f5562756e74752d426f6c644974616c69632e747466|]
+Apr 21 05:57:50 10.71.53.0 u100295750 open "/login/images/icons/symbol-01.png" flags READ mode 0666
+Apr 21 05:57:51 10.71.53.0 u100295750 close "/login/images/icons/symbol-01.png" bytes read 1716 written 0
+Apr 21 05:57:51 10.71.53.0 u100295750 [10.71.53.0|get|1|1716|0|0|0|2f6c6f67696e2f696d616765732f69636f6e732f73796d626f6c2d30312e706e67|]
+Apr 21 05:57:51 10.71.53.0 u100295750 open "/login/images/icons/map-marker.png" flags READ mode 0666
+Apr 21 05:57:51 10.71.53.0 u100295750 open "/login/images/icons/favicon.ico" flags READ mode 0666
+Apr 21 05:57:51 10.71.53.0 u100295750 close "/login/images/icons/map-marker.png" bytes read 2354 written 0
+Apr 21 05:57:51 10.71.53.0 u100295750 [10.71.53.0|get|0|2354|0|0|0|2f6c6f67696e2f696d616765732f69636f6e732f6d61702d6d61726b65722e706e67|]
+Apr 21 05:57:52 10.71.53.0 u100295750 close "/login/images/icons/favicon.ico" bytes read 32038 written 0
+Apr 21 05:57:52 10.71.53.0 u100295750 [10.71.53.0|get|1|32038|0|0|0|2f6c6f67696e2f696d616765732f69636f6e732f66617669636f6e2e69636f|]
+Apr 21 05:57:52 10.71.53.0 u100295750 open "/login/images/icons/icon-google.png" flags READ mode 0666
+Apr 21 05:57:53 10.71.53.0 u100295750 close "/login/images/icons/icon-google.png" bytes read 2698 written 0
+Apr 21 05:57:53 10.71.53.0 u100295750 [10.71.53.0|get|1|2698|0|0|0|2f6c6f67696e2f696d616765732f69636f6e732f69636f6e2d676f6f676c652e706e67|]
+Apr 21 05:57:54 10.71.53.0 u100295750 open "/login/vendor/countdowntime/countdowntime.js" flags READ mode 0666
+Apr 21 05:57:54 10.71.53.0 u100295750 close "/login/vendor/countdowntime/countdowntime.js" bytes read 1340 written 0
+Apr 21 05:57:54 10.71.53.0 u100295750 [10.71.53.0|get|0|1340|0|0|0|2f6c6f67696e2f76656e646f722f636f756e74646f776e74696d652f636f756e74646f776e74696d652e6a73|]
+Apr 21 05:57:55 10.71.53.0 u100295750 open "/login/vendor/animate/animate.css" flags READ mode 0666
+Apr 21 05:57:55 10.71.53.0 u100295750 close "/login/vendor/animate/animate.css" bytes read 23848 written 0
+Apr 21 05:57:55 10.71.53.0 u100295750 [10.71.53.0|get|0|23848|0|0|0|2f6c6f67696e2f76656e646f722f616e696d6174652f616e696d6174652e637373|]
+Apr 21 05:57:56 10.71.53.0 u100295750 open "/login/vendor/css-hamburgers/hamburgers.css" flags READ mode 0666
+Apr 21 05:57:57 10.71.53.0 u100295750 close "/login/vendor/css-hamburgers/hamburgers.css" bytes read 24686 written 0
+Apr 21 05:57:57 10.71.53.0 u100295750 [10.71.53.0|get|1|24686|0|0|0|2f6c6f67696e2f76656e646f722f6373732d68616d627572676572732f68616d627572676572732e637373|]
+Apr 21 05:57:57 10.71.53.0 u100295750 open "/login/vendor/css-hamburgers/hamburgers.min.css" flags READ mode 0666
+Apr 21 05:57:58 10.71.53.0 u100295750 close "/login/vendor/css-hamburgers/hamburgers.min.css" bytes read 19686 written 0
+Apr 21 05:57:58 10.71.53.0 u100295750 [10.71.53.0|get|1|19686|0|0|0|2f6c6f67696e2f76656e646f722f6373732d68616d627572676572732f68616d627572676572732e6d696e2e637373|]
+Apr 21 05:57:58 10.71.53.0 u100295750 open "/login/vendor/daterangepicker/moment.min.js" flags READ mode 0666
+Apr 21 05:57:59 10.71.53.0 u100295750 close "/login/vendor/daterangepicker/moment.min.js" bytes read 46645 written 0
+Apr 21 05:57:59 10.71.53.0 u100295750 [10.71.53.0|get|1|46645|0|0|0|2f6c6f67696e2f76656e646f722f6461746572616e67657069636b65722f6d6f6d656e742e6d696e2e6a73|]
+Apr 21 05:57:59 10.71.53.0 u100295750 open "/login/vendor/daterangepicker/moment.js" flags READ mode 0666
+Apr 21 05:58:00 10.71.53.0 u100295750 open "/login/vendor/daterangepicker/daterangepicker.js" flags READ mode 0666
+Apr 21 05:58:00 10.71.53.0 u100295750 close "/login/vendor/daterangepicker/moment.js" bytes read 134906 written 0
+Apr 21 05:58:00 10.71.53.0 u100295750 [10.71.53.0|get|1|134906|0|0|0|2f6c6f67696e2f76656e646f722f6461746572616e67657069636b65722f6d6f6d656e742e6a73|]
+Apr 21 05:58:00 10.71.53.0 u100295750 close "/login/vendor/daterangepicker/daterangepicker.js" bytes read 69776 written 0
+Apr 21 05:58:00 10.71.53.0 u100295750 [10.71.53.0|get|0|69776|0|0|0|2f6c6f67696e2f76656e646f722f6461746572616e67657069636b65722f6461746572616e67657069636b65722e6a73|]
+Apr 21 05:58:01 10.71.53.0 u100295750 open "/login/vendor/daterangepicker/daterangepicker.css" flags READ mode 0666
+Apr 21 05:58:01 10.71.53.0 u100295750 close "/login/vendor/daterangepicker/daterangepicker.css" bytes read 8163 written 0
+Apr 21 05:58:01 10.71.53.0 u100295750 [10.71.53.0|get|0|8163|0|0|0|2f6c6f67696e2f76656e646f722f6461746572616e67657069636b65722f6461746572616e67657069636b65722e637373|]
+Apr 21 05:58:02 10.71.53.0 u100295750 open "/login/vendor/jquery/jquery-3.2.1.min.js" flags READ mode 0666
+Apr 21 05:58:03 10.71.53.0 u100295750 close "/login/vendor/jquery/jquery-3.2.1.min.js" bytes read 86659 written 0
+Apr 21 05:58:03 10.71.53.0 u100295750 [10.71.53.0|get|1|86659|0|0|0|2f6c6f67696e2f76656e646f722f6a71756572792f6a71756572792d332e322e312e6d696e2e6a73|]
+Apr 21 05:58:03 10.71.53.0 u100295750 open "/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" flags READ mode 0666
+Apr 21 05:58:04 10.71.53.0 u100295750 close "/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" bytes read 17878 written 0
+Apr 21 05:58:04 10.71.53.0 u100295750 [10.71.53.0|get|1|17878|0|0|0|2f6c6f67696e2f76656e646f722f706572666563742d7363726f6c6c6261722f706572666563742d7363726f6c6c6261722e6d696e2e6a73|]
+Apr 21 05:58:04 10.71.53.0 u100295750 open "/login/vendor/perfect-scrollbar/perfect-scrollbar.css" flags READ mode 0666
+Apr 21 05:58:05 10.71.53.0 u100295750 close "/login/vendor/perfect-scrollbar/perfect-scrollbar.css" bytes read 2444 written 0
+Apr 21 05:58:05 10.71.53.0 u100295750 [10.71.53.0|get|1|2444|0|0|0|2f6c6f67696e2f76656e646f722f706572666563742d7363726f6c6c6261722f706572666563742d7363726f6c6c6261722e637373|]
+Apr 21 05:58:05 10.71.53.0 u100295750 open "/login/vendor/select2/select2.min.js" flags READ mode 0666
+Apr 21 05:58:06 10.71.53.0 u100295750 close "/login/vendor/select2/select2.min.js" bytes read 66664 written 0
+Apr 21 05:58:06 10.71.53.0 u100295750 [10.71.53.0|get|1|66664|0|0|0|2f6c6f67696e2f76656e646f722f73656c656374322f73656c656374322e6d696e2e6a73|]
+Apr 21 05:58:07 10.71.53.0 u100295750 open "/login/vendor/select2/select2.min.css" flags READ mode 0666
+Apr 21 05:58:07 10.71.53.0 u100295750 open "/login/vendor/select2/select2.css" flags READ mode 0666
+Apr 21 05:58:07 10.71.53.0 u100295750 close "/login/vendor/select2/select2.min.css" bytes read 15196 written 0
+Apr 21 05:58:07 10.71.53.0 u100295750 [10.71.53.0|get|0|15196|0|0|0|2f6c6f67696e2f76656e646f722f73656c656374322f73656c656374322e6d696e2e637373|]
+Apr 21 05:58:08 10.71.53.0 u100295750 close "/login/vendor/select2/select2.css" bytes read 18086 written 0
+Apr 21 05:58:08 10.71.53.0 u100295750 [10.71.53.0|get|1|18086|0|0|0|2f6c6f67696e2f76656e646f722f73656c656374322f73656c656374322e637373|]
+Apr 21 05:58:08 10.71.53.0 u100295750 open "/login/vendor/select2/select2.js" flags READ mode 0666
+Apr 21 05:58:09 10.71.53.0 u100295750 close "/login/vendor/select2/select2.js" bytes read 168953 written 0
+Apr 21 05:58:09 10.71.53.0 u100295750 [10.71.53.0|get|1|168953|0|0|0|2f6c6f67696e2f76656e646f722f73656c656374322f73656c656374322e6a73|]
+Apr 21 05:58:09 10.71.53.0 u100295750 open "/login/vendor/animsition/css/animsition.css" flags READ mode 0666
+Apr 21 05:58:10 10.71.53.0 u100295750 close "/login/vendor/animsition/css/animsition.css" bytes read 38452 written 0
+Apr 21 05:58:10 10.71.53.0 u100295750 [10.71.53.0|get|1|38452|0|0|0|2f6c6f67696e2f76656e646f722f616e696d736974696f6e2f6373732f616e696d736974696f6e2e637373|]
+Apr 21 05:58:10 10.71.53.0 u100295750 open "/login/vendor/animsition/css/animsition.min.css" flags READ mode 0666
+Apr 21 05:58:11 10.71.53.0 u100295750 close "/login/vendor/animsition/css/animsition.min.css" bytes read 27478 written 0
+Apr 21 05:58:11 10.71.53.0 u100295750 [10.71.53.0|get|1|27478|0|0|0|2f6c6f67696e2f76656e646f722f616e696d736974696f6e2f6373732f616e696d736974696f6e2e6d696e2e637373|]
+Apr 21 05:58:11 10.71.53.0 u100295750 open "/login/vendor/animsition/js/animsition.min.js" flags READ mode 0666
+Apr 21 05:58:12 10.71.53.0 u100295750 close "/login/vendor/animsition/js/animsition.min.js" bytes read 5615 written 0
+Apr 21 05:58:12 10.71.53.0 u100295750 [10.71.53.0|get|1|5615|0|0|0|2f6c6f67696e2f76656e646f722f616e696d736974696f6e2f6a732f616e696d736974696f6e2e6d696e2e6a73|]
+Apr 21 05:58:13 10.71.53.0 u100295750 open "/login/vendor/animsition/js/animsition.js" flags READ mode 0666
+Apr 21 05:58:13 10.71.53.0 u100295750 close "/login/vendor/animsition/js/animsition.js" bytes read 11945 written 0
+Apr 21 05:58:13 10.71.53.0 u100295750 [10.71.53.0|get|0|11945|0|0|0|2f6c6f67696e2f76656e646f722f616e696d736974696f6e2f6a732f616e696d736974696f6e2e6a73|]
+Apr 21 05:58:14 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap.min.css.map" flags READ mode 0666
+Apr 21 05:58:15 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap.min.css.map" bytes read 502438 written 0
+Apr 21 05:58:15 10.71.53.0 u100295750 [10.71.53.0|get|1|502438|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e6d696e2e6373732e6d6170|]
+Apr 21 05:58:15 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap.min.css" flags READ mode 0666
+Apr 21 05:58:15 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap.css.map" flags READ mode 0666
+Apr 21 05:58:16 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap.min.css" bytes read 124962 written 0
+Apr 21 05:58:16 10.71.53.0 u100295750 [10.71.53.0|get|1|124962|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e6d696e2e637373|]
+Apr 21 05:58:16 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap.css.map" bytes read 379132 written 0
+Apr 21 05:58:16 10.71.53.0 u100295750 [10.71.53.0|get|1|379132|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e6373732e6d6170|]
+Apr 21 05:58:17 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap.css" flags READ mode 0666
+Apr 21 05:58:17 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" flags READ mode 0666
+Apr 21 05:58:17 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap.css" bytes read 156884 written 0
+Apr 21 05:58:17 10.71.53.0 u100295750 [10.71.53.0|get|0|156884|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e637373|]
+Apr 21 05:58:18 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" bytes read 24646 written 0
+Apr 21 05:58:18 10.71.53.0 u100295750 [10.71.53.0|get|1|24646|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e6d696e2e6373732e6d6170|]
+Apr 21 05:58:18 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-reboot.min.css" flags READ mode 0666
+Apr 21 05:58:18 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-reboot.css.map" flags READ mode 0666
+Apr 21 05:58:19 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-reboot.min.css" bytes read 3604 written 0
+Apr 21 05:58:19 10.71.53.0 u100295750 [10.71.53.0|get|1|3604|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e6d696e2e637373|]
+Apr 21 05:58:19 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-reboot.css.map" bytes read 51030 written 0
+Apr 21 05:58:19 10.71.53.0 u100295750 [10.71.53.0|get|1|51030|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e6373732e6d6170|]
+Apr 21 05:58:20 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-reboot.css" flags READ mode 0666
+Apr 21 05:58:20 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" flags READ mode 0666
+Apr 21 05:58:20 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-reboot.css" bytes read 4486 written 0
+Apr 21 05:58:20 10.71.53.0 u100295750 [10.71.53.0|get|0|4486|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e637373|]
+Apr 21 05:58:21 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" bytes read 52677 written 0
+Apr 21 05:58:21 10.71.53.0 u100295750 [10.71.53.0|get|1|52677|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e6d696e2e6373732e6d6170|]
+Apr 21 05:58:21 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-grid.min.css" flags READ mode 0666
+Apr 21 05:58:22 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-grid.css.map" flags READ mode 0666
+Apr 21 05:58:22 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-grid.min.css" bytes read 21780 written 0
+Apr 21 05:58:22 10.71.53.0 u100295750 [10.71.53.0|get|1|21780|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e6d696e2e637373|]
+Apr 21 05:58:22 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-grid.css.map" bytes read 73751 written 0
+Apr 21 05:58:22 10.71.53.0 u100295750 [10.71.53.0|get|0|73751|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e6373732e6d6170|]
+Apr 21 05:58:23 10.71.53.0 u100295750 open "/login/vendor/bootstrap/css/bootstrap-grid.css" flags READ mode 0666
+Apr 21 05:58:23 10.71.53.0 u100295750 close "/login/vendor/bootstrap/css/bootstrap-grid.css" bytes read 29140 written 0
+Apr 21 05:58:23 10.71.53.0 u100295750 [10.71.53.0|get|0|29140|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e637373|]
+Apr 21 05:58:24 10.71.53.0 u100295750 open "/login/vendor/bootstrap/js/tooltip.js" flags READ mode 0666
+Apr 21 05:58:25 10.71.53.0 u100295750 close "/login/vendor/bootstrap/js/tooltip.js" bytes read 17299 written 0
+Apr 21 05:58:25 10.71.53.0 u100295750 [10.71.53.0|get|1|17299|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6a732f746f6f6c7469702e6a73|]
+Apr 21 05:58:25 10.71.53.0 u100295750 open "/login/vendor/bootstrap/js/popper.min.js" flags READ mode 0666
+Apr 21 05:58:25 10.71.53.0 u100295750 open "/login/vendor/bootstrap/js/popper.js" flags READ mode 0666
+Apr 21 05:58:26 10.71.53.0 u100295750 close "/login/vendor/bootstrap/js/popper.min.js" bytes read 19033 written 0
+Apr 21 05:58:26 10.71.53.0 u100295750 [10.71.53.0|get|1|19033|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6a732f706f707065722e6d696e2e6a73|]
+Apr 21 05:58:26 10.71.53.0 u100295750 close "/login/vendor/bootstrap/js/popper.js" bytes read 81670 written 0
+Apr 21 05:58:26 10.71.53.0 u100295750 [10.71.53.0|get|1|81670|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6a732f706f707065722e6a73|]
+Apr 21 05:58:26 10.71.53.0 u100295750 open "/login/vendor/bootstrap/js/bootstrap.min.js" flags READ mode 0666
+Apr 21 05:58:27 10.71.53.0 u100295750 open "/login/vendor/bootstrap/js/bootstrap.js" flags READ mode 0666
+Apr 21 05:58:27 10.71.53.0 u100295750 close "/login/vendor/bootstrap/js/bootstrap.min.js" bytes read 51143 written 0
+Apr 21 05:58:27 10.71.53.0 u100295750 [10.71.53.0|get|1|51143|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e6d696e2e6a73|]
+Apr 21 05:58:28 10.71.53.0 u100295750 close "/login/vendor/bootstrap/js/bootstrap.js" bytes read 111390 written 0
+Apr 21 05:58:28 10.71.53.0 u100295750 [10.71.53.0|get|1|111390|0|0|0|2f6c6f67696e2f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e6a73|]
+Apr 21 05:58:29 10.71.53.0 u100295750 open "/logs/access.log.17.2" flags READ mode 0666
+Apr 21 05:58:29 10.71.53.0 u100295750 open "/logs/access.log.15.gz" flags READ mode 0666
+Apr 21 05:58:30 10.71.53.0 u100295750 close "/logs/access.log.17.2" bytes read 19839 written 0
+Apr 21 05:58:30 10.71.53.0 u100295750 [10.71.53.0|get|1|19839|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e32|]
+Apr 21 05:58:30 10.71.53.0 u100295750 close "/logs/access.log.15.gz" bytes read 6472 written 0
+Apr 21 05:58:30 10.71.53.0 u100295750 [10.71.53.0|get|1|6472|0|0|0|2f6c6f67732f6163636573732e6c6f672e31352e677a|]
+Apr 21 05:58:30 10.71.53.0 u100295750 open "/logs/sftp.log.16.gz" flags READ mode 0666
+Apr 21 05:58:31 10.71.53.0 u100295750 open "/logs/access.log.16.7.gz" flags READ mode 0666
+Apr 21 05:58:31 10.71.53.0 u100295750 close "/logs/sftp.log.16.gz" bytes read 4731 written 0
+Apr 21 05:58:31 10.71.53.0 u100295750 [10.71.53.0|get|1|4731|0|0|0|2f6c6f67732f736674702e6c6f672e31362e677a|]
+Apr 21 05:58:32 10.71.53.0 u100295750 close "/logs/access.log.16.7.gz" bytes read 2457 written 0
+Apr 21 05:58:32 10.71.53.0 u100295750 [10.71.53.0|get|1|2457|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e372e677a|]
+Apr 21 05:58:32 10.71.53.0 u100295750 open "/logs/access.log.16.6.gz" flags READ mode 0666
+Apr 21 05:58:32 10.71.53.0 u100295750 open "/logs/access.log.16.5.gz" flags READ mode 0666
+Apr 21 05:58:33 10.71.53.0 u100295750 close "/logs/access.log.16.6.gz" bytes read 1218 written 0
+Apr 21 05:58:33 10.71.53.0 u100295750 [10.71.53.0|get|1|1218|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e362e677a|]
+Apr 21 05:58:33 10.71.53.0 u100295750 close "/logs/access.log.16.5.gz" bytes read 1261 written 0
+Apr 21 05:58:33 10.71.53.0 u100295750 [10.71.53.0|get|1|1261|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e352e677a|]
+Apr 21 05:58:33 10.71.53.0 u100295750 open "/logs/access.log.16.4.gz" flags READ mode 0666
+Apr 21 05:58:34 10.71.53.0 u100295750 open "/logs/access.log.16.3.gz" flags READ mode 0666
+Apr 21 05:58:34 10.71.53.0 u100295750 close "/logs/access.log.16.4.gz" bytes read 1346 written 0
+Apr 21 05:58:34 10.71.53.0 u100295750 [10.71.53.0|get|1|1346|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e342e677a|]
+Apr 21 05:58:35 10.71.53.0 u100295750 close "/logs/access.log.16.3.gz" bytes read 1507 written 0
+Apr 21 05:58:35 10.71.53.0 u100295750 [10.71.53.0|get|1|1507|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e332e677a|]
+Apr 21 05:58:35 10.71.53.0 u100295750 open "/logs/access.log.16.2.gz" flags READ mode 0666
+Apr 21 05:58:36 10.71.53.0 u100295750 open "/logs/access.log.16.1.gz" flags READ mode 0666
+Apr 21 05:58:36 10.71.53.0 u100295750 close "/logs/access.log.16.2.gz" bytes read 1416 written 0
+Apr 21 05:58:36 10.71.53.0 u100295750 [10.71.53.0|get|1|1416|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e322e677a|]
+Apr 21 05:58:36 10.71.53.0 u100295750 close "/logs/access.log.16.1.gz" bytes read 4799 written 0
+Apr 21 05:58:36 10.71.53.0 u100295750 [10.71.53.0|get|1|4799|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e312e677a|]
+Apr 21 05:58:36 10.71.53.0 u100295750 open "/logs/access.log.14.gz" flags READ mode 0666
+Apr 21 05:58:37 10.71.53.0 u100295750 open "/logs/sftp.log.15.gz" flags READ mode 0666
+Apr 21 05:58:37 10.71.53.0 u100295750 close "/logs/access.log.14.gz" bytes read 199 written 0
+Apr 21 05:58:37 10.71.53.0 u100295750 [10.71.53.0|get|1|199|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e677a|]
+Apr 21 05:58:38 10.71.53.0 u100295750 close "/logs/sftp.log.15.gz" bytes read 22770 written 0
+Apr 21 05:58:38 10.71.53.0 u100295750 [10.71.53.0|get|1|22770|0|0|0|2f6c6f67732f736674702e6c6f672e31352e677a|]
+Apr 21 05:58:38 10.71.53.0 u100295750 open "/logs/access.log.13.gz" flags READ mode 0666
+Apr 21 05:58:39 10.71.53.0 u100295750 open "/logs/access.log.12.gz" flags READ mode 0666
+Apr 21 05:58:39 10.71.53.0 u100295750 close "/logs/access.log.13.gz" bytes read 1275 written 0
+Apr 21 05:58:39 10.71.53.0 u100295750 [10.71.53.0|get|1|1275|0|0|0|2f6c6f67732f6163636573732e6c6f672e31332e677a|]
+Apr 21 05:58:39 10.71.53.0 u100295750 close "/logs/access.log.12.gz" bytes read 5148 written 0
+Apr 21 05:58:39 10.71.53.0 u100295750 [10.71.53.0|get|0|5148|0|0|0|2f6c6f67732f6163636573732e6c6f672e31322e677a|]
+Apr 21 05:58:39 10.71.53.0 u100295750 open "/logs/sftp.log.13.gz" flags READ mode 0666
+Apr 21 05:58:40 10.71.53.0 u100295750 open "/logs/access.log.11.gz" flags READ mode 0666
+Apr 21 05:58:40 10.71.53.0 u100295750 close "/logs/sftp.log.13.gz" bytes read 9378 written 0
+Apr 21 05:58:40 10.71.53.0 u100295750 [10.71.53.0|get|1|9378|0|0|0|2f6c6f67732f736674702e6c6f672e31332e677a|]
+Apr 21 05:58:41 10.71.53.0 u100295750 close "/logs/access.log.11.gz" bytes read 60223 written 0
+Apr 21 05:58:41 10.71.53.0 u100295750 [10.71.53.0|get|1|60223|0|0|0|2f6c6f67732f6163636573732e6c6f672e31312e677a|]
+Apr 21 05:58:41 10.71.53.0 u100295750 open "/logs/sftp.log" flags READ mode 0666
