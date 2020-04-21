@@ -67,5 +67,9 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
 
-Database for this project if you need. [firestore]
-[![Landing Page Preview](https://i.imgur.com/ljMJhK7.png)]
+
+# Database for this project. [firestore]
+
+[![Landing Page Preview](https://i.imgur.com/ljMJhK7.pngg)](https://lksgrade.com)
+
+**[View Live Preview](https://lksgrade.com)**
